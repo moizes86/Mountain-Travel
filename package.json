@@ -1,0 +1,22 @@
+{
+  "name": "mountain-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moizes86/Mountain-Travel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moizes86/Mountain-Travel/issues"
+  },
+  "homepage": "https://github.com/moizes86/Mountain-Travel#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
