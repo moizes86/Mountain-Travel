@@ -51,9 +51,11 @@ section p {
 }
 
 .home-screen nav {
+    animation: settleDown 0.5s ease-out;
     position: absolute;
     top: 0;
     width: 100%;
+
 }
 
 .home-screen nav ul {
@@ -89,6 +91,7 @@ section p {
     justify-content: center;
     flex-grow: 1;
     opacity: 1;
+    animation: popup 0.5s ease-out;
 }
 
 .home-screen .content h1 {
@@ -236,4 +239,26 @@ section p {
 
 .footer .fa {
     margin: 5px;
+}
+
+@keyframes popup{
+    0%{
+        transform: translateY(5%);
+        /* opacity:0; */
+    }
+    100%{
+        transform: translateY(0%);
+        opacity:1;
+    }
+}
+
+@keyframes settleDown{
+    0%{
+        transform: translateY(-15%);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity:1;
+    }
 }
